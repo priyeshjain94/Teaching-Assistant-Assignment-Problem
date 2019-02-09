@@ -1,0 +1,12 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: Inspire
+ * Creation Date: Dec 23, 2018 at 9:01:22 PM
+ *********************************************/
+i = 28;
+j = 24;
+ 
+SheetConnection my_sheet("TA2017.xlsx");
+ 
+efficiency from SheetRead(my_sheet, "efficiency");
+capacity from SheetRead(my_sheet, "capacity");

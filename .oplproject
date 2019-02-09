@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Fall 2017</description>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref name="TA2017.dat" type="data">
+			</ref>
+			<ref name="TA2017.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
