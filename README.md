@@ -26,13 +26,11 @@ Authors:  **Priyesh Jain**
 5.2.	 Teaching assistant in first year PhD or cannot take classes they are currently studying.
 5.3.	 For senior year PhD students, efficiency is more when teach classes related to their specialization.
 
-...
 
 ## Assigning Efficiency Score
 
 ![Image of Plot](images/ES.png)
 
-...
 
 ## Optimization Model
 
