@@ -78,6 +78,8 @@ Constraints:
 
 ![Image of Plot](images/import.png)
 
+![Image of Plot](images/import2.png)
+
 - Running Configuration
 
 ![Image of Plot](images/config.png)
@@ -91,8 +93,37 @@ The program code run without an error and there was no blocking pair in this sta
 
 ![Image of Plot](images/DV2.png)
 
+## Running Same Model on fall 2017 Dataset
 
+![Image of Plot](images/data17.png)
 
+Assigning Efficiency Score:
 
+![Image of Plot](images/ES2.png)
+
+Updating new file with new values for ‘i’ and ‘j’: 
+
+Results: 
+
+Decision Variables:
+
+![Image of Plot](images/DV3.png)
+
+![Image of Plot](images/DV4.png)
+
+Objective Function Value: Z = 17.275
+
+## Result Statistics
+
+![Image of Plot](images/R1.png)
+
+![Image of Plot](images/R2.png)
+
+## Comparing the previous TA assignment and the optimization model assignment:
+
+1.	In this optimization model, the value of ‘j’ can be reduced according to the budget of the department and can give desired allocation. In previous TA assignment, the allocation was purely based on the enrollment count and the concentration of PhD students.
+2.	This optimization model will classify TAs into half and full, and make sure that the half TA and full TA will not exceed their number of hours per week.  
+3.	In this model, the efficiency score can be adjusted on the basis of all factors including: Year of PhD, concentration of PhD, enrollment count of the course, whether the TA have studied that particular course before or not.
+4.	The optimization model can give better efficiency and value of objective function for any dataset once the efficiency score is assigned properly. Here, we have assumed the previous dataset to be 90-95% efficient while assigning the efficiency score.  
 
  
